@@ -14,7 +14,7 @@ func main() {
 	fmt.Println("Pizaa rate:", input)
 	numrating, err := strconv.ParseFloat(strings.TrimSpace(input), 64)
 	if err != nil {
-		fmt.Println("err : ", err)
+		fmt.Println("err: ", err)
 	} else {
 		fmt.Println("numrating:", numrating+2)
 	}
