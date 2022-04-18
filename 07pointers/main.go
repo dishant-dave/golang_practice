@@ -19,6 +19,6 @@ func main() {
 	mynumber = mynumber + 2
 	*ptr = mynumber + 2
 	fmt.Println("Variable val : ", mynumber) //here we get variable value
-	fmt.Println("Pointer val : ", ptr)       //here we get memory address
-	fmt.Println("Pointer val : ", *ptr)      //here we get value wich store at this memory address
+	fmt.Println("Pointers val : ", ptr)      //here we get memory address
+	fmt.Println("Pointers val : ", *ptr)     //here we get value wich store at this memory address
 }
